@@ -1,5 +1,7 @@
 import React from "react";
 
+import Img from "./cake.jpg";
+
 export const Cakes = () => {
   return (
     <section>
@@ -7,6 +9,7 @@ export const Cakes = () => {
         <header>
           <h1>Cakes</h1>
         </header>
+        <img src={Img} alt="kage" />'
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum explicabo enim, blanditiis nulla sint architecto, iste cumque voluptate
           similique eligendi voluptatem placeat culpa neque ipsam? Soluta maxime consequuntur commodi ipsum minus reprehenderit earum iure aspernatur
